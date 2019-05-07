@@ -12,6 +12,6 @@ setup(
         'numpy',
         'psutil',
         'tqdm',
-        'tensorflow <= 1.9'
+        'tensorflow >=1.12.1, <= 1.9'
     ],
 )
