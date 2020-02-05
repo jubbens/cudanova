@@ -20,7 +20,7 @@ def get_version(rel_path):
     
 setup(
     name='cudanova',
-    version=get_version("src/cudanova/__init__.py")
+    version=get_version("src/__init__.py"),
     author='Jordan Ubbens',
     author_email='jubbens@gmail.com',
     description='GPU accelerated implementation of permutational multivariate analysis of variance (PERMANOVA).',
