@@ -33,7 +33,7 @@ setup(
         'tqdm',
         'tensorflow >=1.12.1, < 2.0'
     ],
-    url="https://github.com/jubbens/cudanova",
+    url="https://github.com/jobdiogenes/cudanova",
     long_descripton=read("README.md")
     keywords="PERMANOVA, GPU, CUDA",
 )
