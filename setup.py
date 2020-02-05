@@ -1,4 +1,4 @@
-from setuptools import setup, find_namespace_packages
+from setuptools import setup, find_packages
 
 setup(
     name='cudanova',
@@ -6,7 +6,7 @@ setup(
     author='Jordan Ubbens',
     author_email='jubbens@gmail.com',
     description='GPU accelerated implementation of permutational multivariate analysis of variance (PERMANOVA).',
-    packages=find_namespace_packages(),
+    packages=find_packages(),
     license='GPLv3',
     install_requires=[
         'numpy',
