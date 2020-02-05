@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 setup(
     name='cudanova',
@@ -6,7 +6,7 @@ setup(
     author='Jordan Ubbens',
     author_email='jubbens@gmail.com',
     description='GPU accelerated implementation of permutational multivariate analysis of variance (PERMANOVA).',
-    packages=['cudanova'],
+    packages=find_packages(),
     license='GPLv3',
     install_requires=[
         'numpy',
@@ -14,4 +14,6 @@ setup(
         'tqdm',
         'tensorflow >=1.12.1, < 2.0'
     ],
+    url="https://github.com/jubbens/cudanova",
+    keywords="PERMANOVA, GPU, CUDA"
 )
