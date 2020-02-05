@@ -26,7 +26,7 @@ setup(
     description='GPU accelerated implementation of permutational multivariate analysis of variance (PERMANOVA).',
     packages=find_packages(where="src"),
     license='GPLv3',
-    package_dir={"":"src"}
+    package_dir={"":"src"},
     install_requires=[
         'numpy',
         'psutil',
