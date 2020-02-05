@@ -34,6 +34,6 @@ setup(
         'tensorflow >=1.12.1, < 2.0'
     ],
     url="https://github.com/jobdiogenes/cudanova",
-    long_descripton=read("README.md")
-    keywords="PERMANOVA, GPU, CUDA",
+    long_descripton=read("README.md"),
+    keywords="PERMANOVA, GPU, CUDA"
 )
